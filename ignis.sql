@@ -3,6 +3,7 @@ USE IGNIS_DB;
 
 CREATE USER 'ADMIN'@'localhost' IDENTIFIED BY 'repolhocozido123';
 GRANT ALL PRIVILEGES ON ignis_db.* TO 'ADMIN'@'localhost'; 
+FLUSH PRIVILEGES;
 
 
 CREATE TABLE Cliente (
